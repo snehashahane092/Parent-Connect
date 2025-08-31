@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Dashboard - ParentConnect</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/parent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dashboard-body">
+    <nav class="dashboard-nav">
+        <div class="nav-brand">
+            <h2>ParentConnect</h2>
+            <span class="user-role">Parent Dashboard</span>
+        </div>
+        <div class="nav-menu">
+            <a href="#" class="nav-link active"><i class="fas fa-home"></i> Overview</a>
+            <a href="#" class="nav-link"><i class="fas fa-calendar"></i> Attendance</a>
+            <a href="#" class="nav-link"><i class="fas fa-book"></i> Homework</a>
+            <a href="#" class="nav-link"><i class="fas fa-chart-bar"></i> Performance</a>
+            <a href="#" class="nav-link"><i class="fas fa-comment"></i> Messages</a>
+            <a href="#" class="nav-link"><i class="fas fa-bus"></i> Transport</a>
+            <a href="#" class="nav-link"><i class="fas fa-cog"></i> Settings</a>
+        </div>
+        <div class="nav-profile">
+            <img src="../assets/parent-avatar.png" alt="Parent" class="profile-pic">
+            <div class="profile-info">
+                <span class="profile-name">Parent Name</span>
+                <a href="../login.html" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="dashboard-main">
+        <div class="dashboard-header">
+            <h1>Student Overview</h1>
+            <div class="header-actions">
+                <button class="btn btn-primary"><i class="fas fa-envelope"></i> Contact Teacher</button>
+                <button class="btn btn-secondary"><i class="fas fa-download"></i> Download Report</button>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                <div class="stat-info">
+                    <h3>Attendance</h3>
+                    <p class="stat-number">95%</p>
+                    <span class="stat-change positive">Present Today</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-book"></i></div>
+                <div class="stat-info">
+                    <h3>Homework Status</h3>
+                    <p class="stat-number">2</p>
+                    <span class="stat-change">Pending Tasks</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-star"></i></div>
+                <div class="stat-info">
+                    <h3>Overall Grade</h3>
+                    <p class="stat-number">A</p>
+                    <span class="stat-change positive">First Term</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-bus"></i></div>
+                <div class="stat-info">
+                    <h3>Bus Status</h3>
+                    <p class="stat-number">On Time</p>
+                    <span class="stat-change">10 mins away</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-content">
+            <!-- Add more dashboard content here -->
+        </div>
+    </main>
+</body>
+</html>
