@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParentConnect - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>ParentConnect</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Gradient Background -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Connecting Parents & Schools Seamlessly</h1>
+            <p class="hero-subtitle">Smart insights, easy communication, and real-time updates in one place.</p>
+            <div class="hero-buttons">
+                <a href="login.html" class="btn btn-login">LOGIN</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About ParentConnect</h2>
+                <p class="about-description">
+                    ParentConnect is a smart platform that bridges the gap between schools and families by providing tools 
+                    for communication, updates, and academic tracking. We ensure parents stay informed about their child's 
+                    day-to-day school activities through our comprehensive digital solution.
+                </p>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Real-Time Updates</h4>
+                        <p>Get instant notifications about homework, announcements, and school activities</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4>Easy Communication</h4>
+                        <p>Direct messaging with teachers and secure communication channels</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Academic Tracking</h4>
+                        <p>Monitor attendance, grades, and academic progress effortlessly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title services-title">Our Services</h2>
+            <div class="services-grid">
+                <!-- Diary Service -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <div class="service-icon diary-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Diary</h3>
+                    <p class="service-description">Access homework, classwork & teacher notes instantly.</p>
+                </div>
+
+                <!-- Alerts Service -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <div class="service-icon alerts-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Alerts</h3>
+                    <p class="service-description">Get school announcements, event, and transport notifications in real time.</p>
+                </div>
+
+                <!-- Performance Service -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <div class="service-icon performance-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Performance</h3>
+                    <p class="service-description">View attendance and academic grades at a glance.</p>
+                </div>
+
+                <!-- Messages Service -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <div class="service-icon messages-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Messages</h3>
+                    <p class="service-description">Secure, private communication with teachers and school staff.</p>
+                </div>
+
+                <!-- Reports Service -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <div class="service-icon reports-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Reports</h3>
+                    <p class="service-description">Access and download student academic reports online.</p>
+                </div>
+
+                <!-- Transport Tracking Service -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <div class="service-icon transport-icon">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Transport Tracking</h3>
+                    <p class="service-description">Track the live location of school buses for safety and punctuality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ParentConnect</h3>
+                    <p>Connecting Parents & Schools Seamlessly</p>
+                    <p class="footer-subtitle">Digital Diary + Real-Time School Alerts</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Digital Diary</a></li>
+                            <li><a href="#">Real-Time Alerts</a></li>
+                            <li><a href="#">Academic Reports</a></li>
+                            <li><a href="#">Transport Tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ParentConnect. All rights reserved.</p>
+                <p class="footer-credits">Developed by Sneha Shahane, Shrawani Tormad, Renuka Sonawane</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
